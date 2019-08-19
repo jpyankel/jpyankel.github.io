@@ -1,0 +1,28 @@
+/* Describes Styling for the Main Navigation Bar */
+
+.nav_currentitem {
+  color: green;
+}
+
+nav a {
+  text-decoration: none; /* Remove all underlines from links in the nav */
+}
+
+/* Site Title/Logo */
+#site_title {
+  font-family: $font-site_title;
+  font-size: $fontsize_site_title;
+  color: $color-secondary;
+}
+
+/* Span of links in navigation bar to be aligned to the right */
+#nav_rightitems {
+  float: right;
+}
+
+/* Separator (horizontal divider) between navigation and content below */
+#nav_separator {
+  background-image: linear-gradient(to right, rgba(0,255,255,0), rgba(0,255,255,255), rgba(0,255,255,255), rgba(0,255,255,0));
+  height: 2px;
+  border: none;
+}
