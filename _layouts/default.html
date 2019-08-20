@@ -9,8 +9,17 @@
       rel="stylesheet"
     >
   </head>
-  <body>
+  <body
+    {% if page.bg-img %}
+    style="background-image:
+    linear-gradient(to right, rgba(181,193,187,1), rgba(231,244,237,0.2)),
+    url({{ page.bg-img }})"
+    {% endif %}
+  >
     {% include navigation.html %}
-    {{ content }}
+    {% include pre-content.html %}
+    <div class="main-content">
+      {{ content }}
+    </div>
   </body>
 </html>

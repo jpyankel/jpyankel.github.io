@@ -2,6 +2,7 @@
 @import 'typography';
 
 body {
+  margin: 0; /* Make margin 0 so that we can use all available screen space */
   font-family: $font-default;
 }
 

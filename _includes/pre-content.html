@@ -1,0 +1,21 @@
+<!--
+  Pre-content consists of a page title and subtitle to be displayed alongside
+    some optional metadata positioned just above the current page's content.
+-->
+
+{% if page.post-title %}
+  <h1 id="post-title">{{ page.post-title }}</h1>
+{% endif %}
+
+{% if page.post-subtitle %}
+  <h2 id="post-subtitle">{{ page.post-subtitle }}</h2>
+{% endif %}
+
+<!--
+TODO If layout is post...
+<span>
+  <h3> {{ page.date }} </h3>
+  <a href="{{ page.projectlink }}">{{ page.project-name }}</a>
+  <h3> {{ page.project-link }} </h3>
+</span>
+-->

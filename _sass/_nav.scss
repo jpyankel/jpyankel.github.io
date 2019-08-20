@@ -1,5 +1,12 @@
 /* Describes Styling for the Main Navigation Bar */
 
+nav {
+  background-color: $color-primary-dark;
+  padding: 1em 1em 1em 1em;
+  margin: 0 0 0 0;
+  border-width: 0
+}
+
 .nav_currentitem {
   color: green;
 }
@@ -13,6 +20,7 @@ nav a {
   font-family: $font-site_title;
   font-size: $fontsize_site_title;
   color: $color-secondary;
+  text-shadow: 1px 1px $color-secondary-dark;
 }
 
 /* Span of links in navigation bar to be aligned to the right */
@@ -25,4 +33,5 @@ nav a {
   background-image: linear-gradient(to right, rgba(0,255,255,0), rgba(0,255,255,255), rgba(0,255,255,255), rgba(0,255,255,0));
   height: 2px;
   border: none;
+  margin: 0;
 }
