@@ -1,4 +1,5 @@
 ---
+layout: about
 title: About
 bg-img: /assets/img/workspace.jpg
 post-title: Joseph Yankel

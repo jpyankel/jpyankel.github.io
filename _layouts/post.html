@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+{% if page.post-title %}
+  <h1 id="post-title">{{ page.post-title }}</h1>
+{% endif %}
+
+<span>
+  <h3> {{ page.date }} </h3>
+  <a href="{{ page.project-link }}">{{ page.project-name }}</a>
+</span>
+
+<div id="content">
+  {{ content }}
+</div>

@@ -1,6 +1,7 @@
 ---
+layout: about
 title: Home
-bg-img: /assets/img/workspace.jpg
+bg-img: workspace
 post-title: Welcome!
 ---
 

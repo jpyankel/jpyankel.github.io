@@ -1,0 +1,2 @@
+Make main-content have 100% width when on small screens. Give text a decent
+margin in this case.

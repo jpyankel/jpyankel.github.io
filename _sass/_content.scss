@@ -1,0 +1,8 @@
+#content {
+  background-color: $color-primary;
+  width: 90%; /* This combined with margin-left&right will center content */
+  margin-left: auto;
+  margin-right: auto;
+  border-top-left-radius: 20px;
+  box-shadow: 2px 2px;
+}

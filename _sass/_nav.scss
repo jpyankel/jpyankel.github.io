@@ -1,15 +1,17 @@
-/* Describes Styling for the Main Navigation Bar */
+/* Describes styling for the main navigation bar */
 
 nav {
-  background-color: $color-primary-dark;
+  background-color: $color-primary;
   padding: 1em 1em 1em 1em;
   margin: 0 0 0 0;
   border-width: 0
 }
 
 .nav_currentitem {
-  color: green;
+  background-color: $color-primary-dark;
 }
+
+/* TODO Nav hover makes item color-primary-light */
 
 nav a {
   text-decoration: none; /* Remove all underlines from links in the nav */

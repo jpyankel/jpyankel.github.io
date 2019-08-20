@@ -11,15 +11,11 @@
   </head>
   <body
     {% if page.bg-img %}
-    style="background-image:
-    linear-gradient(to right, rgba(181,193,187,1), rgba(231,244,237,0.2)),
-    url({{ page.bg-img }})"
+      class="img-{{ page.bg-img }}"
     {% endif %}
   >
     {% include navigation.html %}
-    {% include pre-content.html %}
-    <div class="main-content">
-      {{ content }}
-    </div>
+    <div id="spacer"></div>
+    {{ content }}
   </body>
 </html>
