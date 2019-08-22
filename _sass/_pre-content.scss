@@ -3,10 +3,10 @@
     just above the page's main content.
 */
 
-#post-title {
-
-}
-
-#post-subtitle {
-
+#post-title, #post-subtitle {
+  font-family: font-heading;
+  text-align: center;
+  color: $color-text-highlight2;
+  text-shadow: 0px 0px 8px white,
+               0px 0px 8px white;
 }

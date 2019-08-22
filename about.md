@@ -1,7 +1,7 @@
 ---
 layout: about
-title: About
-bg-img: /assets/img/workspace.jpg
+title: Home
+bg-img: workspace
 post-title: Joseph Yankel
 post-subtitle: ECE Student and Hobbyist
 ---

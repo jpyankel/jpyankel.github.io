@@ -21,7 +21,7 @@ nav {
 
 /* Space between the nav and the pre-content */
 #spacer {
-  flex-basis: 5em;
+  flex-basis: 15em;
 }
 
 /* Container for the pre-content */
@@ -44,6 +44,28 @@ nav {
                     url("../img/workspace.jpg");
 }
 
+/* Used as an aesthetic border and actual content divider */
+hr {
+  background-image: linear-gradient(to right, rgba($color-primary-dark, 0),
+                                    rgba($color-primary-dark, 1),
+                                    rgba($color-primary-dark, 1),
+                                    rgba($color-primary-dark, 0));
+  height: 2px;
+  border: none;
+}
+
+/* Used for the hr upper border <hr> of the content box for aesthetics */
+.no-margin {
+  margin: 0;
+}
+
+/* Used for the upper border <hr> of the content box for aesthetics */
+.translate-up-2px {
+  position: relative;
+  top: -2px;
+}
+
 @import 'nav';
 @import 'pre-content';
 @import 'content';
+@import 'recent-posts';

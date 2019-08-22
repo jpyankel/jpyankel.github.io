@@ -3,18 +3,18 @@
 -->
 <div>
   <nav>
-    <a href="/" id="site_title">JPYankel</a>
+    <a href="/" id="site-title">JPYankel</a>
     
-    <span id="nav_rightitems">
+    <div id="nav-rightitems">
       {% for item in site.data.navigation %}
         <a href="{{ item.link }}"
           {% if page.url == item.link %}
-            class="nav_currentitem"
+            class="nav-currentitem"
           {% endif %}>
           {{ item.name }}
         </a>
       {% endfor %}
-    </span>
+    </div>
   </nav>
-  <hr id='nav_separator'>
+  <hr class='no-margin'>
 </div>
