@@ -43,6 +43,11 @@ nav {
                                     rgba($color-secondary, 0.2)),
                     url("../img/workspace.jpg");
 }
+.img-amiibrOS {
+  background-image: linear-gradient(to right, rgba($color-secondary, 1),
+                                    rgba($color-secondary, 0.2)),
+                    url("../img/amiibrOS.jpg");
+}
 
 /* Used as an aesthetic border and actual content divider */
 hr {
@@ -69,3 +74,4 @@ hr {
 @import 'pre-content';
 @import 'content';
 @import 'recent-posts';
+@import 'projects-list';
