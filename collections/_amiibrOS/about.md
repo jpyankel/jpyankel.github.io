@@ -1,18 +1,18 @@
 ---
-project-title: amiibrOS
-project-thumbnail: amiibrOS-thumbnail
-project-thumbnail-alt: A picture of something
-start-date: 2019-05
-bg-img: amiibrOS
+layout: "project"
+
+title: amiibrOS
+startdate: 2019-05-01
 ---
 
+# Project Overview
 amiibrOS is an electronics/embedded-software summer project started in 2019.
 
 The original goal of the project was to create a retro art display which would
 change to reflect an Nintendo Amiibo figure scanned by its built-in scanner.
 
 <video muted width="320" height="240" controls>
-  <source src="../assets/vid/amiibrOS-demo.mp4" type="video/mp4">
+  <source src="./assets/vid/amiibrOS-demo.mp4" type="video/mp4">
   Error, your browser does not support the video technology used on this page.
 </video>
 
@@ -44,7 +44,7 @@ I also played around with bluetooth and was able to get an
 [8Bitdo N30 Pro 2](https://www.8bitdo.com/n30pro-2/) to work. A tutorial for
 getting bluetooth controllers to work with amiibrOS will be available soon.
 
-<img src="../../assets/img/amiibrOS-enclosure.jpg"
+<img src="./assets/img/lego-enclosure.jpg"
   alt="Enclosure made of Lego">
 
 An enclosure was built out of Lego hastily, but it holds together nicely with a
@@ -68,7 +68,3 @@ automatically.
 
 All of the software can be found at the GitHub project:
 <https://github.com/jpyankel/amiibrOS>
-
-## Relevant Posts
-A list of relevant posts concerning amiibrOS can be found below:
-{% include related-posts.html %}

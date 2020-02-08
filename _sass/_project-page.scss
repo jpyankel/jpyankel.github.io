@@ -1,0 +1,59 @@
+/* === Project Layout === */
+
+/* Main-container holding the header and sub-container */
+#main-container {
+  // Max width of content+aside is 75% of 1920 (desktop viewing)
+  max-width: 1440px;
+  
+  // The overall container is center aligned, but won't appear to be until the
+  //   max-width becomes evident
+  margin: 0 auto;
+}
+
+/* Page container holding 2-column layout (content and aside) */
+#page {
+  display: flex;
+
+  // When the page becomes too narrow to fit both columns, the aside column
+  //   will fall onto the next row
+  flex-wrap: wrap;
+}
+
+// Calculate bounds using border-box (this prevents padding from making box
+//   size bigger, and instead includes it in the %width calculation).
+#content,#aside {
+  box-sizing: border-box;
+}
+
+/* 2-column layout for large screens */
+@media only screen and (min-width: 901px) {
+  #content {
+    // Take up 3/4 width of the container (9/16 of 1920)
+    width: 75%;
+  }
+
+  #aside {
+    // The aside will automatically take up the remaining 1/4
+    width: 25%;
+  }
+}
+
+/* Single-column layout for narrow screens */
+@media only screen and (max-width: 900px) {
+  #content {
+    // Take up full width of the page
+    width: 100%;
+  }
+
+  #aside {
+    // Drop the aside down to the next rowon narrow-screen mode
+    width: 100%;
+
+    // Don't let the aside grow too big now that it has its own row.
+    // It enlarges the picture and content way too much
+    max-width: 675px;
+
+    // Allow the aside to center itself if it has the space
+    margin: 0 auto;
+  }
+}

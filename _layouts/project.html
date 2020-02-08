@@ -2,13 +2,24 @@
 layout: default
 ---
 
-<div id="pre-content">
-  {% if page.project-title %}
-    <h1 id="post-title">{{ page.project-title }}</h1>
-  {% endif %}
-</div>
+<div id="main-container">
+  <div id="project-header">
+    <h1 id="project-title">{{ page.title }}</h1>
+    <div id="project-daterange">
+      {{ page.startdate | date: '%b %Y' }}
+      -
+      {% if page.enddate %}
+        {{ page.enddate | date: '%b %Y' }}
+      {% else %}
+        Ongoing
+      {% endif %}
+    </div>
+  </div>
 
-<div id="content">
-  <hr class='no-margin translate-up-2px'>
-  {{ content }}
+  <div id="page">
+    <div id="content">
+      {{ content }}
+    </div>
+    <div id="aside"></div>
+  </div>
 </div>

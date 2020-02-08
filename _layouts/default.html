@@ -4,18 +4,8 @@
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="/assets/css/styles.css">
-    <link
-      href="https://fonts.googleapis.com/css?family=Grenze:700|Roboto&display=swap"
-      rel="stylesheet"
-    >
   </head>
-  <body
-    {% if page.bg-img %}
-      class="img-{{ page.bg-img }}"
-    {% endif %}
-  >
-    {% include navbar.html %}
-    <div id="spacer"></div>
+  <body>
     {{ content }}
   </body>
 </html>

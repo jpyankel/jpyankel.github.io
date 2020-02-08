@@ -1,78 +1,23 @@
-@import 'palette';
-@import 'typography';
-
+// Global Styling
 html, body {
-  height: 100%; /* Make page extend all of the way down */
-  width: 100%; /* Make page extend to each side */
-  margin: 0; /* Make margin 0 so that we can use all available screen space */
-}
+  // Make page extend all of the way down
+  height: 100%;
 
-body {
-  font-family: $font-default; /* Use Roboto for everything by default */
+  // Make page extend to each side
+  width: 100%;
 
-  /* Use flexbox for our page */
-  display: flex;
-  flex-direction: column;
-}
-
-nav {
-  flex-shrink: 0; /* Nav takes up only as much space as it needs */
-}
-
-/* Space between the nav and the pre-content */
-#spacer {
-  flex-basis: 15em;
-}
-
-/* Container for the pre-content */
-#pre-content {
-  flex-shrink: 0; /* Pre-content takes up only as much space as it needs */
-}
-
-/* Container for the content */
-#content {
-  /* Content can grow to fill the page, but takes at minimum as much space as
-       it needs */
-  flex-shrink: 0;
-  flex-grow: 1;
-}
-
-/* Image classes (assigned to objects which display images as backgrounds */
-.img-workspace {
-  background-image: linear-gradient(to right, rgba($color-secondary, 1),
-                                    rgba($color-secondary, 0.2)),
-                    url("../img/workspace.jpg");
-}
-.img-amiibrOS {
-  background-image: linear-gradient(to right, rgba($color-secondary, 1),
-                                    rgba($color-secondary, 0.2)),
-                    url("../img/amiibrOS.jpg");
-}
-
-/* Used as an aesthetic border and actual content divider */
-hr {
-  background-image: linear-gradient(to right, rgba($color-primary-dark, 0),
-                                    rgba($color-primary-dark, 1),
-                                    rgba($color-primary-dark, 1),
-                                    rgba($color-primary-dark, 0));
-  height: 2px;
-  border: none;
-}
-
-/* Used for the hr upper border <hr> of the content box for aesthetics */
-.no-margin {
+  // Make margin 0 so that we can use all available screen space
   margin: 0;
 }
 
-/* Used for the upper border <hr> of the content box for aesthetics */
-.translate-up-2px {
-  position: relative;
-  top: -2px;
-}
+// Global Variables
+@import 'palette';
+@import 'typography';
 
-@import 'nav';
-@import 'pre-content';
+// Layouts
+@import 'project-page';
+
+// Styles / Elements
 @import 'content';
-@import 'recent-posts';
-@import 'projects-list';
-@import 'about';
+@import 'aside';
+@import 'project-header';
