@@ -3,10 +3,34 @@
 #content {
   // Add padding to all sides of the content so that text doesn't appear
   //   squashed against the screen, aside, or header
-  padding: 1em;
+  padding: 1em 2em;
 
-  // TODO REMOVE
-  background-color: rgb(50, 50, 50);
+  box-shadow: 0px 1px 4px 0px black;
+}
+
+// Remove spacing between paragraphs and lists
+#content p + ul {
+  margin-top: -1em;
+}
+
+// Reset top-margins for all other text elements
+#content p, #content ul, #content li {
+  margin-block-start: 0em;
+}
+
+// Set font for all body elements
+#content p, #content li  {
+  font-family: $font-body;
+}
+
+#content h1 {
+  font: normal 2em $font-heading;
+}
+
+#content h2 {
+  font: normal 1.5em $font-heading;
+  margin-block-start: 1em;
+  margin-block-end: 0em;
 }
 
 /* Set size and location of video and image elements */
@@ -14,7 +38,16 @@
   // Display images and videos on their own lines
   display: block;
 
-  // Make images/videos take up all available space
+  // Make images/videos take up all available space until a max width
   width: 100%;
+  max-width: 30em;
   height: auto;
+
+  // Images and videos are centered by default
+  margin-left: auto;
+  margin-right: auto;
+
+  // default margins for non-captioned videos or images
+  margin-block-start: 1em;
+  margin-block-end: 1em;
 }

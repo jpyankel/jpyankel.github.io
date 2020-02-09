@@ -4,7 +4,7 @@
 #main-container {
   // Max width of content+aside is 75% of 1920 (desktop viewing)
   max-width: 1440px;
-  
+
   // The overall container is center aligned, but won't appear to be until the
   //   max-width becomes evident
   margin: 0 auto;
@@ -21,7 +21,7 @@
 
 // Calculate bounds using border-box (this prevents padding from making box
 //   size bigger, and instead includes it in the %width calculation).
-#content,#aside {
+#content, #aside {
   box-sizing: border-box;
 }
 
