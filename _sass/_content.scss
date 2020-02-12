@@ -33,21 +33,39 @@
   margin-block-end: 0em;
 }
 
-/* Set size and location of video and image elements */
-#content img, #content video {
-  // Display images and videos on their own lines
+/* Set size and location of image elements */
+#content img {
+  // Display images on their own lines
   display: block;
 
-  // Make images/videos take up all available space until a max width
-  width: 100%;
-  max-width: 30em;
-  height: auto;
-
-  // Images and videos are centered by default
-  margin-left: auto;
-  margin-right: auto;
+  // Make images take up all available space horizontally
+  max-width: 100%;
 
   // default margins for non-captioned videos or images
   margin-block-start: 1em;
   margin-block-end: 1em;
+}
+
+// Credit to https://github.com/nathancy/jekyll-embed-video
+#content .embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+
+  // Make videos take up all available space horizontally
+  max-width: 100%;
+
+  // default margins for non-captioned videos
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+}
+
+// Credit to https://github.com/nathancy/jekyll-embed-video
+#content .embed-container iframe, #content .embed-container object, #content .embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }

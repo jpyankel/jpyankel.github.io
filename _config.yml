@@ -1,11 +1,23 @@
-collections_dir: collections
-
-collections:
-  amiibrOS:
-    output: true
-
 defaults:
   - scope:
       path: ""
     values:
       layout: "default"
+  - scope:
+      path: "projects"
+      type: "posts"
+    values:
+      layout: "project"
+      permalink: /:categories/:title
+  - scope:
+      path: "tutorials"
+      type: "posts"
+    values:
+      layout: "tutorial"
+      permalink: /:categories/:title
+  - scope:
+      path: "updates"
+      type: "posts"
+    values:
+      layout: "update"
+      permalink: /:categories/:year/:month/:day/:title
