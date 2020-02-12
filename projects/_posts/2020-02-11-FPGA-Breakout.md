@@ -18,7 +18,7 @@ weekend to add:
 * ASCII text renderer
 * Title screen with mode selection.
 
-{% include youtubePlayer.html id=td3yZrMGRZw %}
+{% include youtubePlayer.html id="td3yZrMGRZw" %}
 
 Due to the nature of this being a class project, I cannot release any source
 code or discuss implementation of the base project.

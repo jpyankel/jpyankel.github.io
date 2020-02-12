@@ -10,7 +10,7 @@ Teapot Wars is a multiplayer, tile-based, dungeon crawler. Players race against
 each other to find the Legendary Bag of Tea +3, a powerful item that grants
 infinite power to the wielder (i.e. the player who finds it wins).
 
-{% include youtubePlayer.html id=_xNK_5YAYWY %}
+{% include youtubePlayer.html id="_xNK_5YAYWY" %}
 
 The game most prominent features:
 * Networked multiplayer
