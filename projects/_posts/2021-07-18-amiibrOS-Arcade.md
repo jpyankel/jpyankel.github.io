@@ -15,7 +15,7 @@ updates to amiibrOS developed in 2020 - titled "amiibrOS Arcade". See the [origi
 <img src="/assets/img/amiibrOS/amiibrOS_arcade_back.jpg"
   alt="amiibrOS Arcade back view">
 
-<img src="/assets/img/amiibrOS/amiibrOS_arcade_internal.jpg"
+<img src="/assets/img/amiibrOS/amiibrOS_arcade_internal.png"
   alt="amiibrOS Arcade showing electronics and other components">
 
 {% include youtubePlayer.html id="FAwBiTkSlRw" %}
