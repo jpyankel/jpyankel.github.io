@@ -33,7 +33,7 @@ schematic [here](https://jpyankel.github.io/assets/img/amiibrOS/pm_board_schemat
 layout [here](https://jpyankel.github.io/assets/img/amiibrOS/pm_board_layout.png).
 * Reworked system software ported from C Raylib to Python Pygame. This will make it easier to
 maintain and add more features in the future. You can find all of the sotware at the GitHub
-project: <https://github.com/jpyankel/amiibrOS>
+project: <https://github.com/jpyankel/amiibrOS-arcade>
 * [Class D audio amp board](https://www.amazon.com/HiLetgo-PAM8610-Digital-Amplifier-Channel/dp/B00WSN9S4Q/ref=sr_1_11?dchild=1&keywords=class+d+amplifier+board&qid=1626639954&sr=8-11) which amplifies stereo audio from the RPIs headphone jack.
 * Two sets of mid-range speakers taken from an old TV.
 * An swappable arcade joystick panel with an 8-button and joystick layout inspired by
