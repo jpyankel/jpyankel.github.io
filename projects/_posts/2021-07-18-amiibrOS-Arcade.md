@@ -10,19 +10,19 @@ amiibrOS is an electronics/embedded-software summer project started in 2019. Thi
 updates to amiibrOS developed in 2020 - titled "amiibrOS Arcade". See the [original project](https://jpyankel.github.io/projects/amiibrOS.html) for the original hardware and project background.
 
 <img src="/assets/img/amiibrOS/amiibrOS_arcade_front.jpg"
-  alt="New amiibrOS Arcade hobby project front view"
+  alt="New amiibrOS Arcade hobby project front view">
 
 <img src="/assets/img/amiibrOS/amiibrOS_arcade_back.jpg"
-  alt="amiibrOS Arcade back view"
+  alt="amiibrOS Arcade back view">
 
 <img src="/assets/img/amiibrOS/amiibrOS_arcade_internal.jpg"
-  alt="amiibrOS Arcade showing electronics and other components"
+  alt="amiibrOS Arcade showing electronics and other components">
 
 {% include youtubePlayer.html id="FAwBiTkSlRw" %}
 
 ## New Features
-* Wooden bartop arcade cabinet I designed in Autodesk Fusion 360. 3D model viewer here:
-https://a360.co/2VPVUB3
+* Wooden bartop arcade cabinet I designed in Autodesk Fusion 360. 3D model viewer
+here: <https://a360.co/2VPVUB3>
 * [Raspberry Pi 4B](https://www.raspberrypi.org/products/raspberry-pi-4-model-b), upgraded from the
 original version's 3B+.
 * My custom PCB which distributes power to different components of the system. Steps down 12V to 5V
@@ -32,9 +32,9 @@ USB-C [breakout board](https://www.sparkfun.com/products/15100), 12V LCD, audio 
 schematic [here](https://jpyankel.github.io/assets/img/amiibrOS/pm_board_schematic.png) and board
 layout [here](https://jpyankel.github.io/assets/img/amiibrOS/pm_board_layout.png).
 * Reworked system software ported from C Raylib to Python Pygame. This will make it easier to
-maintain and add more features in the future. You can find all of the sotware at the GitHub project:
-<https://github.com/jpyankel/amiibrOS>
-* [Class D audio amp board]() which amplifies stereo audio from the RPIs headphone jack.
+maintain and add more features in the future. You can find all of the sotware at the GitHub
+project: <https://github.com/jpyankel/amiibrOS>
+* [Class D audio amp board](https://www.amazon.com/HiLetgo-PAM8610-Digital-Amplifier-Channel/dp/B00WSN9S4Q/ref=sr_1_11?dchild=1&keywords=class+d+amplifier+board&qid=1626639954&sr=8-11) which amplifies stereo audio from the RPIs headphone jack.
 * Two sets of mid-range speakers taken from an old TV.
 * An swappable arcade joystick panel with an 8-button and joystick layout inspired by
 https://www.slagcoin.com/joystick/layout.html. The buttons and joystick were obtained from a [kit](https://www.amazon.com/Hikig-Encoders-Joysticks-Buttons-Raspberry/dp/B07JF34XPB/ref=sr_1_7?dchild=1&keywords=joystick+and+buttons+kit&qid=1626635167&sr=8-7)
